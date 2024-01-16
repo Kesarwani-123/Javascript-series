@@ -1,1 +1,33 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postnatal age </title>
+</head>
+<body> 
+    <!-- please  see the output in console (clt+shift+i) for browser -->
+    <script>
+    let age;
+     age= prompt("Please Enter Your Age ");
+     if (age === 18) {
+    console.log("This is your dreamer age");
+}
+else if (age > 72 && age <= 92) {
+    console.log("This is your giver age");
+}
+else if (age > 54 && age <= 72) {
+    console.log("This is your mentor age");
+}
+else if (age > 36 && age <= 54) {
+    console.log("This is your builder age");
+}
+else if (age > 18 && age <= 36) {
+    console.log("This is your explorer age");
+}
+
+ 
+</script>
+</body>
+</html>
