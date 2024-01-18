@@ -1,1 +1,49 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //  string sample number-1
+    const x="hello";
+        // console.log(x);
+        const y=new String('hello eveypone');
+        console.log(y);
+// ***********************************************************************************************
+
+    // string sample number-2
+        var sentence = "This is a sample sentence.";
+        
+        // Check if a substring exists
+        var substring1Exists = sentence.indexOf("sample") !== -1; // true
+        var substring2Exists = sentence.indexOf("hello") !== -1;   // false
+        console.log(substring2Exists);
+    // ***********************************************************************************************
+       // string sample number-3
+      // exact location to check that string are prent or not 
+        var startsWithSample = sentence.startsWith("This");
+        var endsWithSample = sentence.endsWith(".");
+        console.log(startsWithSample); // it gives true
+        console.log(endsWithSample);   // it give true true
+    // ***********************************************************************************************
+       // string sample number-4
+      // match method to find the strings if yes to meet the string it will give show indexng and values otherwise give null
+        var matchwith= sentence.match("shome");
+        console.log(matchwith);
+     // **********************************************************************************************
+       // string sample number-5
+      // here we used in split to convert the string to charater
+        var stingtochar=sentence.split('')
+        console.log(stingtochar);
+     // ***********************************************************************************************
+       // string sample number-6
+      // used a spread operator[...]
+        var stringtochar=[...sentence];
+        console.log(stringtochar);
+        </script>
+</body>
+</html>
